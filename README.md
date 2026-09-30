@@ -20,6 +20,8 @@ React 19 · TypeScript · Vite · React Router
 bun install
 bun run dev
 
+или перейти по ссылке: https://sovakrya.github.io/test-task-green-api/auth
+
 ## Использование
 
 1. На первой странице ввести Id Instance, Api token Instance и
