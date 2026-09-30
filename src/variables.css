@@ -1,0 +1,16 @@
+:root {
+  --mx-primary: #6e3af2;
+  --mx-primary-light: #9b6bff;
+  --mx-gradient: linear-gradient(135deg, #6e3af2 0%, #9b6bff 100%);
+  --mx-bg: #f6f4ff;
+  --mx-2-bg: #e9e4ff;
+  --mx-surface: #ffffff;
+  --mx-field: #f1f0f6;
+  --mx-text: #14131c;
+  --mx-muted: #8b8a9b;
+  --mx-error: #e5484d;
+  --mx-error-bg: #fdecec;
+  --mx-radius-card: 28px;
+  --mx-radius-field: 14px;
+  --mx-h: 56px;
+}

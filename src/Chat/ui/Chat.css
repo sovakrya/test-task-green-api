@@ -1,0 +1,80 @@
+.chat-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: var(--mx-2-bg);
+}
+
+.chat-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 24px;
+  background-color: var(--mx-primary-light);
+}
+
+.chat-header__avatar {
+  width: 60px;
+  border-radius: 50px;
+}
+
+.chat-header__userName {
+  color: #ffffff;
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+
+.chat-window-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+
+.chat-window-box {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 40px;
+  overflow: auto;
+  gap: 12px;
+}
+
+.chat-actions-box {
+  display: flex;
+  gap: 14px;
+}
+
+.chat-actions-box__input {
+  height: var(--mx-h);
+  padding: 0 16px;
+  border: none;
+  border-radius: var(--mx-radius-field);
+  background-color: var(--mx-surface);
+  color: var(--mx-text);
+  font-size: 16px;
+  width: 100%;
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Roboto, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+.chat-actions-box__input:focus {
+  outline: none;
+  background-color: var(--mx-surface);
+  box-shadow: 0 0 0 2px rgba(110, 58, 242, 0.3);
+}
+
+.chat-actions-box__button {
+  position: absolute;
+  right: 40px;
+  bottom: 38px;
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
