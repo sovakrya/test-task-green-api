@@ -15,7 +15,7 @@ function App() {
   const [userName, setUserName] = useState('')
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <div className="container">
         <Routes>
           <Route path="/" element={<Navigate to="/auth" replace />} />
